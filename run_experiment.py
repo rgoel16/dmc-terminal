@@ -3,8 +3,8 @@ import pandas as pd
 
 RUN_LABEL = "main-version"   # Question 7: edit this line on both branches
 
-DATA_PATH = "data/sample_dataset.csv"
-N_ROWS = 5  # try changing this
+DATA_PATH = "data/big_dataset.csv"
+N_ROWS = 3  # try changing this
 
 df = pd.read_csv(DATA_PATH)
 print(f"[{RUN_LABEL}]")
