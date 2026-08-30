@@ -1,7 +1,7 @@
 # Placeholder capstone script, swap in real analysis once decided.
 import pandas as pd
 
-RUN_LABEL = "baseline"   # Question 7: edit this line on both branches
+RUN_LABEL = "my-version"   # Question 7: edit this line on both branches
 
 DATA_PATH = "data/big_dataset.csv"
 N_ROWS = 3  # try changing this
